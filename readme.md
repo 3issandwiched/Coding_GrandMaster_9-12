@@ -10,3 +10,7 @@ git rm --cached -r -f . (force it)
 git reset --soft HEAD~2 (What this did: It safely removed those two local commits. Your code files are completely safe and still look exactly how they are right now. They are just sitting back in your "Changes" list in VS Code)
 
 
+# check the size of push
+git add .
+git commit -m "testing push size"
+git push --dry-run --verbose 
