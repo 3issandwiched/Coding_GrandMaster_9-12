@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Background Gradients</title>
+</head>
+<body>
+<div class="hero">Welcome to the world of CSS gradients!</div>
+<button class="btn-play">Play</button>
+
+</body>
+</html>
+
+<style>
+    /* Simple gradient */
+body {
+  background: linear-gradient(to bottom, #141414, #000000);
+}
+
+/* Layered gradients on hero */
+.hero {
+  background:
+    linear-gradient(to bottom, rgba(128, 11, 11, 0) 30%, #573636 100%),
+    linear-gradient(to right, rgba(115, 7, 7, 0.75), transparent),
+    linear-gradient(135deg, #6014be 0%, #0d1b4b 40%, #d41313 100%);
+}
+/* Play button with radial gradient */
+.btn-play {
+  background: radial-gradient(circle, #830e0e, #aaaaaa);
+  padding: 11px 26px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+</style>
+
+
+
