@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Animation</title>
+</head>
+<body>
+
+<div class="ring">Ring</div>
+<div class="bike">Bike</div>
+
+</body>
+</html>
+
+<style>
+    body {background-color: #8c2e2e;}
+    
+.ring {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.bike {
+  animation-name: ride;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes ride {
+  0%   { left: 2%; }
+  100% { left: 86%; }
+}
+</style>
