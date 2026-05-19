@@ -1,0 +1,38 @@
+/* Universal Selector: Applies a common font style to every element */
+* {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Element Selector: Styles the whole webpage text */
+body {
+  color: black;
+}
+
+/* Element Selector: Styles all paragraph text */
+p {
+  color: dimgray;
+  line-height: 1.5;
+}
+
+/* ID Selector: Styles one unique character card */
+#character-card {
+  width: 500px;
+  border: 3px solid darkblue;
+}
+
+/* Class Selector: Styles repeated character detail items */
+.detail {
+  color: darkorange;
+  font-weight: bold;
+}
+
+/* Class Selector: Styles the fun fact paragraph */
+.fun-fact {
+  border: 2px dashed green;
+}
+
+/* Group Selector: Applies the same style to h2 and h3 */
+h2, h3 {
+  text-align: center;
+}
