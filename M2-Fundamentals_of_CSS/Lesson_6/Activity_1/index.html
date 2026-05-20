@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precise Positioning Demo</title>
+  
+  <style>
+    /* The container acts as the anchor/boundary line */
+    .parent-box {
+      position: relative;     /* Creates the coordinate map for the child */
+      width: 200px;
+      height: 200px;
+      background: lightgray;
+    }
+
+    /* The target box placed at an exact location */
+    .child-badge {
+      position: absolute;     /* Locks onto the nearest relative parent */
+      top: 20px;              /* Moves exactly 20px down from the top edge */
+      right: 20px;            /* Moves exactly 20px in from the right edge */
+      width: 40px;
+      height: 40px;
+      background: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parent-box">
+    <div class="child-badge"></div>
+  </div>
+
+</body>
+</html>
+
+
+<style>
+  /* 1. The profile image container */
+  .profile {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: dodgerblue;
+    border-radius: 50%;
+  }
+
+  /* 2. The red notification dot */
+  .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+    border: 2px solid white; /* Makes it pop out */
+  }
+</style>
+
+<div class="profile">
+  <div class="badge"></div>
+</div>
