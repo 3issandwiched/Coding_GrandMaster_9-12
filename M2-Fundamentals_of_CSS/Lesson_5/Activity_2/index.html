@@ -1,0 +1,31 @@
+<div style="width: 300px; font-family: sans-serif;">
+  
+  <!-- This orange square acts exactly like your profile image -->
+  <div style="float: left; width: 60px; height: 60px; background: orange; margin-right: 12px; border-radius: 50%;"></div>
+  
+  <p><strong>Jane Doe</strong><br>
+  Jane is a web developer based in New York. She loves coding in CSS and drinking iced coffee every single morning.</p>
+
+</div>
+
+
+so float fixes at left and allows us to write the text as if it not there?
+Yes, that's correct! The `float: left;` property allows the orange square (which represents the profile image) 
+to float to the left side of the container. This means that the text will flow around it, starting from the right of 
+the image and continuing downwards. The `margin-right: 12px;` adds some space between the image and the text, ensuring 
+that they don't touch each other directly.
+
+The text acts like the box isn't there, except the text forces its words to wrap around the edge of the floated box 
+so they don't overlap.
+<br>
+<br>
+<br>
+Here is one last ultra-short code to prove your point. 
+The paragraph text completely ignores the floated box and starts on the exact same line:
+<br>
+<br>
+<br>
+<!-- The red box floats left, text acts like it isn't there but wraps around it -->
+<div style="float: left; width: 40px; height: 40px; background: red; margin-right: 10px;"></div>
+
+<p>This text starts right here and flows around the red box.</p>
