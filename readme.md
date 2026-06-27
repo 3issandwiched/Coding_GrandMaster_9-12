@@ -14,3 +14,35 @@ git reset --soft HEAD~2 (What this did: It safely removed those two local commit
 git add .
 git commit -m "testing push size"
 git push --dry-run --verbose 
+
+
+
+## Essential tags to know
+     <html>: The root container that wraps all structural content on the web page.<head>: 
+      Contains hidden metadata, page settings, scripts, and the browser tab title.<body>: 
+      Houses all the visible page components, like paragraphs, graphics, and data tables.
+      <h1> to <h6>: Used to set text headers, where <h1> represents the largest heading and 
+      <h6> represents the smallest.<a>: 
+      Creates hyperlinks to other websites using a destination URL attribute.
+
+
+
+
+
+# Questions
+
+1) A web developer wants to display a YouTube video directly inside a webpage so users can watch it without leaving the site. Which HTML tag should they use?
+Options
+
+A) <a> (Anchor tag)
+B) <iframe>
+C) <video>
+
+
+
+2) A web developer wants to display a YouTube video directly inside a webpage so users can watch it. Which HTML tag should they use?
+Options
+
+A) <a> (Anchor tag)
+B) <iframe>
+C) <video>
